@@ -1,8 +1,10 @@
 # Lemonade for iOS
+
 *Squash lemons, make lemonade!*
 
-
-<img src="https://github.com/user-attachments/assets/0da0a5c4-6eb2-4695-98ec-c2e9ad80571b" width="250" height="600" alt="Preview of the app!">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0da0a5c4-6eb2-4695-98ec-c2e9ad80571b" width="250" height="600" alt="Preview of the app!">
+</p>
 
 ## What is 'Lemonade for iOS'?
 Lemonade for iOS is a project of building an application I originally had developed for Android using Android Studio and Kotlin, from the ground up using XCode and Swift.
