@@ -6,9 +6,13 @@
   <img src="https://github.com/user-attachments/assets/0da0a5c4-6eb2-4695-98ec-c2e9ad80571b" width="250" height="600" alt="Preview of the app!">
 </p>
 
-## What is 'Lemonade for iOS'?
-Lemonade for iOS is a project of building an application I originally had developed for Android using Android Studio and Kotlin, from the ground up using XCode and Swift.
 
+## What is 'Lemonade for iOS'?
+
+Lemonade for iOS is a project of building an application I originally had developed for Android using Android Studio and Kotlin, from the ground up using XCode and Swift.
+<br><br>Built for iOS 18 and above in XCode version 16.0. 
+
+<br>
 I originally built Lemonade as part of my BSc Computer Science degree. 
 <br><br>One of my modules in second year was Agile Development. 
 <br>This module taught me how to develop applications using Agile methodology via developing an Android application as part of a team.
