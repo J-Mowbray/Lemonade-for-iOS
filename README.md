@@ -36,10 +36,36 @@ Lemonade is a simple application, where the user is presented with a background 
 <br><br>A count of how many lemons have been squashed during the current app session is displayed to the user at the top of the screen during the lemon-squashing section.
 
 ## Devices Tested on and confirm working:
+
 This section will be updated if/when it is tested on further devices. 
 <br>Please see below for the devices it has been tested on thus far and confirmed to be working as intended:
 - [x] iPad 6th Generation running iPadOS 17.7
 - [x] iPhone 16 Pro running iOS 18.1
+
+## New Features added! *More to also come in time...*
+
+Whilst this is still a simple application, a lot of time has been made to make improvements to the application and add features to it, with ideas in the pipline to further expand it!
+<br><br>
+
+*What's New?*
+-------------
+
+Originally, the app was quite bland and only had the interactive elements of being able to tap the images to make the lemonade and the counter at the top, stating how many lemons have been squashed. 
+<br><br>Now however, I've added some copyright free music to the application to make it a much nicer experience!
+<br> All credit for the music goes to [Chillpeach](https://www.youtube.com/@Chillpeach). Please check out their work and support them.
+<br><br> The music in the application is called ['On The Top' and can be listened to here](https://www.youtube.com/watch?v=VwiHerRkCvk)
+
+<br><br>
+A detailed list of features I wish to implement will be added here, hopefully Soon™. 
+
+
+
+
+
+
+
+
+
 
 
 
