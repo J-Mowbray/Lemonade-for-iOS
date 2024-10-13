@@ -12,8 +12,9 @@ import SwiftUI
 struct LemonadeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView() // Set the main view of the app
+            ContentView()
         }
     }
 }
+
 
