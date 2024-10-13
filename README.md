@@ -10,7 +10,7 @@
 ## What is 'Lemonade for iOS'?
 
 Lemonade for iOS is a project of building an application I originally had developed for Android using Android Studio and Kotlin, from the ground up using XCode and Swift.
-<br><br>Built for iOS 18 and above in XCode version 16.0. 
+<br><br>Built for iOS 17 and above in XCode version 16.0. 
 
 <br>
 I originally built Lemonade as part of my BSc Computer Science degree. 
@@ -34,6 +34,12 @@ Lemonade is a simple application, where the user is presented with a background 
 
 <br>After the glass of lemonade is drank, an empty glass is displayed to the user and they are prompted to tap the empty glass to start again!
 <br><br>A count of how many lemons have been squashed during the current app session is displayed to the user at the top of the screen during the lemon-squashing section.
+
+## Devices Tested on and confirm working:
+This section will be updated if/when it is tested on further devices. 
+<br>Please see below for the devices it has been tested on thus far and confirmed to be working as intended:
+- [x] iPad 6th Generation running iPadOS 17.7
+- [x] iPhone 16 Pro running iOS 18.1
 
 
 
