@@ -58,6 +58,9 @@ Originally, the app was quite bland and only had the interactive elements of bei
 <br><br>
 A detailed list of features I wish to implement will be added here, hopefully Soon™. 
 
+## Application Demo video
+[![A video demo of the application](https://img.youtube.com/vi/ow5oBmZtT20/0.jpg)](https://www.youtube.com/watch?v=ow5oBmZtT20)
+
 
 
 
