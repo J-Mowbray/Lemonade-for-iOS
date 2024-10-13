@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+/// Main entry point for the Lemonade app.
 @main
 struct LemonadeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // Set the main view of the app
         }
     }
 }
+
