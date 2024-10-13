@@ -1,12 +1,18 @@
 # Lemonade for iOS
+
 *Squash lemons, make lemonade!*
 
-<img src="https://github.com/user-attachments/assets/26fe0e21-7b41-45ae-be7d-a0e661209f05" width="300" height="600" alt="Preview of the app!">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0da0a5c4-6eb2-4695-98ec-c2e9ad80571b" width="250" height="600" alt="Preview of the app!">
+</p>
 
 
 ## What is 'Lemonade for iOS'?
-Lemonade for iOS is a project of building an application I originally had developed for Android using Android Studio and Kotlin, from the ground up using XCode and Swift.
 
+Lemonade for iOS is a project of building an application I originally had developed for Android using Android Studio and Kotlin, from the ground up using XCode and Swift.
+<br><br>Built for iOS 18 and above in XCode version 16.0. 
+
+<br>
 I originally built Lemonade as part of my BSc Computer Science degree. 
 <br><br>One of my modules in second year was Agile Development. 
 <br>This module taught me how to develop applications using Agile methodology via developing an Android application as part of a team.
@@ -17,9 +23,10 @@ I originally built Lemonade as part of my BSc Computer Science degree.
 4) Pivitoal Tracker
 
 To consolidate everything I had learned before commencing on the group work, I decided to build a simple and fun application for my son. Thus, Lemonade was born!
+<br><br> I took the basis of this from the Android Basics in Kotlin course from Google, which can be found [here](https://developer.android.com/courses/android-basics-compose/course), and scaled it up from there to have a different background etc.
 
 ## What does the app do?
-Lemonade is a simple application, where the user is presented with a background image of a farmyard and a single, lone lemon tree. The user is instructed to pick a lemon from the tree in order to squash the lemon and make... LEMONADE!
+Lemonade is a simple application, where the user is presented with a background image of a farmyard and a single, lone lemon tree. The user is instructed to pick a lemon from the tree in order to squash the lemon and make... *LEMONADE!*
 <br><br>Once a lemon is picked from the tree, a lemon is shown to the user and instructed to tap the lemon to make lemonade. 
 <br>The amount of taps it takes to squash the lemon is random each time. 
 <br><br>Once this is completed, a glass full of lemonade is shown to the user and the user is prompted to tap the glass to drink it.
