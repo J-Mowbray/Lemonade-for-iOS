@@ -38,9 +38,52 @@ class GameLogic: ObservableObject {
         }
     }
 
+    /// Moves to the restart step after drinking lemonade.
+    func drinkLemonade() {
+        currentStep = .restart // Move to restart step
+    }
+
     /// Restarts the game.
     func restartGame() {
         currentStep = .pickLemon // Restart the game
         squeezeCount = 0 // Reset squeeze count
+ 
+    }
+
+    // Provides the view configuration based on the current game step
+    func currentView() -> (textLabel: String, imageName: String, contentDescription: String, action: () -> Void) {
+        switch currentStep {
+        case .pickLemon:
+            return (
+                "Tap the lemon tree \n   to pick a lemon! 🍋",
+                "lemon_tree",
+                "Lemon tree content description.",
+                { self.pickLemon() }
+            )
+        case .squeezeLemon:
+            return (
+                "Tap the lemon to squeeze it!\nWe're making tasty lemonade!",
+                "lemon_squeeze",
+                "Lemon being squeezed content description.",
+                { self.squeezeLemon() }
+            )
+        case .drinkLemonade:
+            return (
+                """
+                Mmm, tasty lemonade!
+                    Tap the glass to drink it! 😎
+                """,
+                "lemon_drink",
+                "Glass of lemonade content description.",
+                { self.drinkLemonade() }
+            )
+        case .restart:
+            return (
+                "Oh no! You drank it all! 😢\nTap the empty glass to start again!",
+                "lemon_restart",
+                "Empty glass content description.",
+                { self.restartGame() }
+            )
+        }
     }
 }

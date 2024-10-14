@@ -36,46 +36,15 @@ struct GameUI: View {
 
                 Spacer()
 
-                // Integrate LemonadeView directly into GameUI
-                switch gameLogic.currentStep {
-                case .pickLemon:
-                    lemonadeView(
-                        textLabel: "Tap the lemon tree \n   to pick a lemon! 🍋",
-                        imageName: "lemon_tree",
-                        contentDescription: "Lemon tree content description",
-                        action: {
-                            gameLogic.pickLemon()
-                        }
-                    )
-                case .squeezeLemon:
-                    lemonadeView(
-                        textLabel: "Tap the lemon to squeeze it!\nWe're making tasty lemonade!",
-                        imageName: "lemon_squeeze",
-                        contentDescription: "Lemon content description",
-                        action: {
-                            gameLogic.squeezeLemon()
-                        }
-                    )
-                case .drinkLemonade:
-                    lemonadeView(
-                        textLabel: """
-                            Mmm, tasty lemonade!
-                                Tap the glass to drink it! 😎
-                            """,
-                        imageName: "lemon_drink",
-                        contentDescription: "Glass full content description",
-                        action: { gameLogic.restartGame() }
-                    )
-                case .restart:
-                    lemonadeView(
-                        textLabel: "Oh no! You drank it all! 😢\nTap the empty glass to start again!",
-                        imageName: "lemon_restart",
-                        contentDescription: "Empty glass content description",
-                        action: {
-                            gameLogic.restartGame()
-                        }
-                    )
-                }
+                // Get the current view configuration from GameLogic
+                let viewConfig = gameLogic.currentView()
+
+                lemonadeView(
+                    textLabel: viewConfig.textLabel,
+                    imageName: viewConfig.imageName,
+                    contentDescription: viewConfig.contentDescription,
+                    action: viewConfig.action
+                )
 
                 Spacer()
             }

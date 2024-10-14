@@ -27,6 +27,7 @@
 		79077FE22CBAC78600C6B134 /* Lemonade!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemonade!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79077FF22CBAC78800C6B134 /* Lemonade!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79077FFC2CBAC78800C6B134 /* Lemonade!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799B770D2CBD975600CD033E /* Lemonade--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lemonade--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		79077FD92CBAC78600C6B134 = {
 			isa = PBXGroup;
 			children = (
+				799B770D2CBD975600CD033E /* Lemonade--Info.plist */,
 				79077FE42CBAC78600C6B134 /* Lemonade */,
 				79077FF52CBAC78800C6B134 /* LemonadeTests */,
 				79077FFF2CBAC78800C6B134 /* LemonadeUITests */,
@@ -394,11 +396,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Lemonade/Preview Content\"";
 				DEVELOPMENT_TEAM = J8JGG4X4KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lemonade--Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Lemonade!";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,11 +432,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Lemonade/Preview Content\"";
 				DEVELOPMENT_TEAM = J8JGG4X4KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lemonade--Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Lemonade!";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
