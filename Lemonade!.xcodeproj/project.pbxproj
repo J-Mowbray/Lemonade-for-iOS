@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79077FE22CBAC78600C6B134 /* Lemonade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lemonade.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79077FF22CBAC78800C6B134 /* LemonadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79077FFC2CBAC78800C6B134 /* LemonadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79077FE22CBAC78600C6B134 /* Lemonade!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemonade!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79077FF22CBAC78800C6B134 /* Lemonade!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79077FFC2CBAC78800C6B134 /* Lemonade!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		79077FE32CBAC78600C6B134 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79077FE22CBAC78600C6B134 /* Lemonade.app */,
-				79077FF22CBAC78800C6B134 /* LemonadeTests.xctest */,
-				79077FFC2CBAC78800C6B134 /* LemonadeUITests.xctest */,
+				79077FE22CBAC78600C6B134 /* Lemonade!.app */,
+				79077FF22CBAC78800C6B134 /* Lemonade!Tests.xctest */,
+				79077FFC2CBAC78800C6B134 /* Lemonade!UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79077FE12CBAC78600C6B134 /* Lemonade */ = {
+		79077FE12CBAC78600C6B134 /* Lemonade! */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 790780062CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade" */;
+			buildConfigurationList = 790780062CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade!" */;
 			buildPhases = (
 				79077FDE2CBAC78600C6B134 /* Sources */,
 				79077FDF2CBAC78600C6B134 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				79077FE42CBAC78600C6B134 /* Lemonade */,
 			);
-			name = Lemonade;
+			name = "Lemonade!";
 			packageProductDependencies = (
 			);
 			productName = Lemonade;
-			productReference = 79077FE22CBAC78600C6B134 /* Lemonade.app */;
+			productReference = 79077FE22CBAC78600C6B134 /* Lemonade!.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79077FF12CBAC78800C6B134 /* LemonadeTests */ = {
+		79077FF12CBAC78800C6B134 /* Lemonade!Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 790780092CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "LemonadeTests" */;
+			buildConfigurationList = 790780092CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade!Tests" */;
 			buildPhases = (
 				79077FEE2CBAC78800C6B134 /* Sources */,
 				79077FEF2CBAC78800C6B134 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				79077FF52CBAC78800C6B134 /* LemonadeTests */,
 			);
-			name = LemonadeTests;
+			name = "Lemonade!Tests";
 			packageProductDependencies = (
 			);
 			productName = LemonadeTests;
-			productReference = 79077FF22CBAC78800C6B134 /* LemonadeTests.xctest */;
+			productReference = 79077FF22CBAC78800C6B134 /* Lemonade!Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		79077FFB2CBAC78800C6B134 /* LemonadeUITests */ = {
+		79077FFB2CBAC78800C6B134 /* Lemonade!UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7907800C2CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "LemonadeUITests" */;
+			buildConfigurationList = 7907800C2CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade!UITests" */;
 			buildPhases = (
 				79077FF82CBAC78800C6B134 /* Sources */,
 				79077FF92CBAC78800C6B134 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				79077FFF2CBAC78800C6B134 /* LemonadeUITests */,
 			);
-			name = LemonadeUITests;
+			name = "Lemonade!UITests";
 			packageProductDependencies = (
 			);
 			productName = LemonadeUITests;
-			productReference = 79077FFC2CBAC78800C6B134 /* LemonadeUITests.xctest */;
+			productReference = 79077FFC2CBAC78800C6B134 /* Lemonade!UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 79077FDD2CBAC78600C6B134 /* Build configuration list for PBXProject "Lemonade" */;
+			buildConfigurationList = 79077FDD2CBAC78600C6B134 /* Build configuration list for PBXProject "Lemonade!" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79077FE12CBAC78600C6B134 /* Lemonade */,
-				79077FF12CBAC78800C6B134 /* LemonadeTests */,
-				79077FFB2CBAC78800C6B134 /* LemonadeUITests */,
+				79077FE12CBAC78600C6B134 /* Lemonade! */,
+				79077FF12CBAC78800C6B134 /* Lemonade!Tests */,
+				79077FFB2CBAC78800C6B134 /* Lemonade!UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		79077FF42CBAC78800C6B134 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79077FE12CBAC78600C6B134 /* Lemonade */;
+			target = 79077FE12CBAC78600C6B134 /* Lemonade! */;
 			targetProxy = 79077FF32CBAC78800C6B134 /* PBXContainerItemProxy */;
 		};
 		79077FFE2CBAC78800C6B134 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79077FE12CBAC78600C6B134 /* Lemonade */;
+			target = 79077FE12CBAC78600C6B134 /* Lemonade! */;
 			targetProxy = 79077FFD2CBAC78800C6B134 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,7 +473,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemonade";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade!.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemonade!";
 			};
 			name = Debug;
 		};
@@ -492,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemonade";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade!.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemonade!";
 			};
 			name = Release;
 		};
@@ -533,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79077FDD2CBAC78600C6B134 /* Build configuration list for PBXProject "Lemonade" */ = {
+		79077FDD2CBAC78600C6B134 /* Build configuration list for PBXProject "Lemonade!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				790780042CBAC78800C6B134 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		790780062CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade" */ = {
+		790780062CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				790780072CBAC78800C6B134 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		790780092CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "LemonadeTests" */ = {
+		790780092CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade!Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7907800A2CBAC78800C6B134 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7907800C2CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "LemonadeUITests" */ = {
+		7907800C2CBAC78800C6B134 /* Build configuration list for PBXNativeTarget "Lemonade!UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7907800D2CBAC78800C6B134 /* Debug */,
