@@ -5,6 +5,12 @@
 //  Created by Jamie Mowbray on 13/10/2024.
 //
 
+
+//ToDo:
+// Fix the music playback so that it plays the background music even when a users device is in silent mode.
+// Also implement pausing of their current music if playing and then resume when app closes/disappears.
+// Possibly an option in the UI to turn off the in-game music to allow the user to continue listening to their music.
+
 import AVFoundation
 import UIKit // Import UIKit to use NSDataAsset
 
